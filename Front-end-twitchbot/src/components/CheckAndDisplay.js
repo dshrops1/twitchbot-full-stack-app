@@ -4,7 +4,6 @@ import Button from '@material-ui/core/Button';
 import QuotePaper from './QuotePaper'
 import config from '../config'
 
-
 export default class extends Component {
 
     state = {
@@ -113,11 +112,11 @@ createMyQuotes = async () => {
 
 render () {
     return (
-
+    //change one of these id's
         <Fragment>
             <div style={{marginLeft: '30%'}}>
             <TextField
-            id="name"
+            id="named"
             label="user"
             value ={this.state.user}
              onChange={event => this.setState({user: event.target.value})}

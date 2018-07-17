@@ -2,9 +2,9 @@ const express = require('express')
 const monk = require('monk')
 const bodyParser = require('body-parser')
 const app = express()
+import login from "./envior"
 
-
-const url = 'dshrops1:Dustbunny1992!@ds119171.mlab.com:19171/users'
+const url = login
 const db = monk(url)
 
 db.then(()=>{

@@ -20,6 +20,9 @@ Front-end-twitchbot/build
 /Front-end-twitchbot/src/config.js
 .DS_Store
 
+/authen-api/envior.js
+/quotes-api/enviorment.js
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

@@ -2,10 +2,10 @@ const express = require('express');
 const app = express();
 const monk = require('monk');
 const bodyParser = require('body-parser');
-
+const login = require('./enviorment')
 let textParser = bodyParser.text()
 
-const url = "admin:password1@ds259210.mlab.com:59210/quotes";
+const url = login;
 const db = monk(url);
 const collection = db.get('quotes');
 

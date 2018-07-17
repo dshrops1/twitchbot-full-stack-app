@@ -36,9 +36,12 @@ function PaperSheet(props) {
 
                 <br/>
                 <Typography component="p" style={centerStyle}>
-                   Built with React and material UI for the front end.
-                   The back end is build with node and express.
-                   And then the bot is build with tmi.js and amazon twitchs api
+                   Built with React and materialUI for the front end.
+                   On the back end I have multiple api's using twitch's api, express and a variety of other
+                   things. the front end is deployed on a AWS EC2 instance using apache. Two of the api's are
+                    also hosted on their own EC2 instances
+                    <br/>
+                    <a href='https://github.com/dshrops1/twitchbot-full-stack-app'>link to github</a>
                 </Typography>
 
 
@@ -58,6 +61,9 @@ function PaperSheet(props) {
                     commands that can be used:
                     !echo *some text* and
                     !quote
+                    <br/>
+                    Please be aware that  Quotebot is an active fellow and sometimes
+                    needs a rest and thus is not always available to take commands
                 </Typography>
             </Paper>
 
